@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="19884" started-at="2023-03-10T14:15:16 CAT" finished-at="2023-03-10T14:15:36 CAT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6c3708b3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="19884" started-at="2023-03-10T14:15:16 CAT" finished-at="2023-03-10T14:15:36 CAT">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@6c3708b3]" name="setUpClass" is-config="true" duration-ms="692" started-at="2023-03-10T14:15:16 CAT" finished-at="2023-03-10T14:15:17 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6c3708b3]" name="runScenario" duration-ms="12041" started-at="2023-03-10T14:15:17 CAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-10T14:15:29 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Employee to the table"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage Employees]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\MARIG\IdeaProjects\untitled\target\Book1.csv (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\MARIG\IdeaProjects\untitled\target\Book1.csv (The system cannot find the file specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(FileInputStream.java:195)
+at java.io.FileInputStream.<init>(FileInputStream.java:138)
+at java.io.FileInputStream.<init>(FileInputStream.java:93)
+at java.io.FileReader.<init>(FileReader.java:58)
+at stepDefs.MyStepdefs.theUserInputRequiredInformation(MyStepdefs.java:35)
+at ✽.The user input required information(file:///C:/Users/MARIG/IdeaProjects/untitled/src/test/resources/features/Manage.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6c3708b3]" name="runScenario" duration-ms="17369" started-at="2023-03-10T14:15:17 CAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-10T14:15:34 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["cancel employee details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage Employees]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6c3708b3]" name="runScenario" duration-ms="18961" started-at="2023-03-10T14:15:17 CAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-10T14:15:36 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["updating employee details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage Employees]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@6c3708b3]" name="runScenario" duration-ms="13380" started-at="2023-03-10T14:15:17 CAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-10T14:15:30 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Remove employee on a table"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Manage Employees]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@6c3708b3]" name="tearDownClass" is-config="true" duration-ms="165" started-at="2023-03-10T14:15:36 CAT" finished-at="2023-03-10T14:15:36 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

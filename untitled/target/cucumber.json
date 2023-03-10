@@ -1,0 +1,231 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-10T12:15:17.510Z",
+        "line": 4,
+        "name": "Add Employee to the table",
+        "description": "",
+        "id": "manage-employees;add-employee-to-the-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11765000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on Manage Employee Landing page",
+            "match": {
+              "location": "stepDefs.MyStepdefs.theUserIsOnManageEmployeeLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.io.FileNotFoundException: C:\\Users\\MARIG\\IdeaProjects\\untitled\\target\\Book1.csv (The system cannot find the file specified)\r\n\tat java.io.FileInputStream.open0(Native Method)\r\n\tat java.io.FileInputStream.open(FileInputStream.java:195)\r\n\tat java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:138)\r\n\tat java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:93)\r\n\tat java.io.FileReader.\u003cinit\u003e(FileReader.java:58)\r\n\tat stepDefs.MyStepdefs.theUserInputRequiredInformation(MyStepdefs.java:35)\r\n\tat ✽.The user input required information(file:///C:/Users/MARIG/IdeaProjects/untitled/src/test/resources/features/Manage.feature:6)\r\n",
+              "duration": 7000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "The user input required information",
+            "match": {
+              "location": "stepDefs.MyStepdefs.theUserInputRequiredInformation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manageEmployees"
+          },
+          {
+            "name": "@add"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-10T12:15:17.510Z",
+        "line": 10,
+        "name": "Remove employee on a table",
+        "description": "",
+        "id": "manage-employees;remove-employee-on-a-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10298000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user is on Manage Employee Landing page",
+            "match": {
+              "location": "stepDefs.MyStepdefs.theUserIsOnManageEmployeeLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 518000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User select employee on a table",
+            "match": {
+              "location": "stepDefs.MyStepdefs.userSelectEmployeeOnATable()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2274000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Remove Employee Button",
+            "match": {
+              "location": "stepDefs.MyStepdefs.clickRemoveEmployeeButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manageEmployees"
+          },
+          {
+            "name": "@remove"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-10T12:15:17.510Z",
+        "line": 16,
+        "name": "updating employee details",
+        "description": "",
+        "id": "manage-employees;updating-employee-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11606000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user is on Manage Employee Landing page",
+            "match": {
+              "location": "stepDefs.MyStepdefs.theUserIsOnManageEmployeeLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select employee on a table",
+            "match": {
+              "location": "stepDefs.MyStepdefs.userSelectEmployeeOnATable()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6854000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Edit the details and click Add Employee",
+            "match": {
+              "location": "stepDefs.MyStepdefs.editTheDetailsAndClickAddEmployee()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manageEmployees"
+          },
+          {
+            "name": "@update"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-10T12:15:17.510Z",
+        "line": 22,
+        "name": "cancel employee details",
+        "description": "",
+        "id": "manage-employees;cancel-employee-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10666000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user is on Manage Employee Landing page",
+            "match": {
+              "location": "stepDefs.MyStepdefs.theUserIsOnManageEmployeeLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User select employee on a table",
+            "match": {
+              "location": "stepDefs.MyStepdefs.userSelectEmployeeOnATable()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6203000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "cancel employee details",
+            "match": {
+              "location": "stepDefs.MyStepdefs.cancelEmployeeDetails()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@manageEmployees"
+          },
+          {
+            "name": "@cancel"
+          }
+        ]
+      }
+    ],
+    "name": "Manage Employees",
+    "description": "",
+    "id": "manage-employees",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Manage.feature",
+    "tags": [
+      {
+        "name": "@manageEmployees",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
